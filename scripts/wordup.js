@@ -142,7 +142,7 @@ function render() {
     $("#allowed-letters").empty();
     $("#word-submissions").empty();
     $("#textbox").attr("disabled",false);
-    $(".dissalowed-letter").remove();
+    $(".disallowed-letter").remove();
     $("#textbox").removeClass("bad-attempt");
 
     // TODO 10
